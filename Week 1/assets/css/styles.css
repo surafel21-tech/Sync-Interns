@@ -1,0 +1,138 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  position: relative;
+  height: 100vh;
+  background-image: url("./assets/images/homebackground.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust the transparency as desired */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.product-image{
+  position: relative;
+  height: 70vh;
+  width:70vh;
+}
+
+.product-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.benefits{
+  display: flex;
+}
+
+.how-it-works-image{
+height: 100px;
+width: 100px;
+}
+
+.shadow-effect{
+transition: all 0.5s;
+}
+
+.shadow-effect:hover{
+box-shadow: -6px 6px 0 0  #e0f780;;
+}
+
+.background1{
+background-color:  #b6cbce;
+background-size: cover;
+background-position: center;
+}
+
+.bg-base {
+background-color: #fff;
+}
+
+.background2{
+background-color:  #84808f;
+background-size: cover;
+background-position: center;
+}
+
+.bg-base2 {
+background-color: #5eddd7;
+}
+
+/* .background3{
+background-color:  #e9e8eb;
+background-size: cover;
+background-position: center;
+} */
+
+.footer{
+background-color: #324448;
+color: #fff;
+}
+
+.btn{
+background-color: #1b94a4;
+}
+
+.logo{
+height: 60px;
+width: 60px;
+}
+
+.nav-link{
+color:#fff;
+/* background-color: #fff; */
+}
+
+.background-image1 {
+position: relative;
+height: 100vh;
+background-image: url("./assets/images/watch-background.jpg");
+background-size: cover;
+background-position: center;
+}
+.pro{
+color: #fff;
+}
+
+.background-image2 {
+position: relative;
+height: 100vh;
+background-image: url("./assets/images/watch-background1.jpg");
+background-size: cover;
+background-position: center;
+}
+.background-image3 {
+position: relative;
+height: 100vh;
+background-image: url("./assets/images/watch-background2.jpg");
+background-size: cover;
+background-position: center;
+}
